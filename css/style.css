@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+/* Header */
+.header{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/img/grille.png);
+}
+
+/*Nav*/
+.logo{
+    cursor: pointer;
+    margin: 0 8rem 0 0;
+}
+
+.container_nav{
+    display: inline-block;
+    margin: 1.4rem;
+}
+
+.container_nav{
+    color: var(--primary);
+}
+
+.bloc_nav{
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'DroidSans';
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+/*Sepration bloc nav*/
+.separation-0{
+    height: 7px;
+    border: none;
+    background-color: var(--separation-nav-1);
+}
+
+.separation-1{
+    height: 7px;
+    border: none;
+    background-color: var(--separation-nav-2);
+}
+
+.separation-2{
+    height: 7px;
+    border: none;
+    background-color: var(--separation-nav-3);
+}
+
+.separation-3{
+    height: 7px;
+    border: none;
+    background-color: var(--separation-nav-4);
+}
+
+.separation-4{
+    height: 7px;
+    border: none;
+    background-color: var(--separation-nav-5);
+}
+
+.bloc_li{
+    margin: 10px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link ul, .link li, .link a{
+    margin: 0;
+    list-style: none;
+    color: var(--primary);
+    text-decoration: none;
+    padding: 7px 0 0 0;
+    font-family: 'DroidSans';
+}
+
+/* Iframe/MP4 */
+.video_mp4{
+    text-align: center;
+    margin: 2rem 0;
+}
+/* Section container */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0 15% 0 15%;
+    column-gap: 10rem;
+
+}
+
+.container-1{
+    display: grid;
+    padding: 10px;
+    position: relative;
+    border: 1rem solid;
+    color: rgb(231, 231, 231);
+    border: 2px solid;
+}
+
+.container-2{
+    display: grid;
+    grid-template-rows: auto;
+    position: relative;
+}
+
+
+.container-3{
+    display: grid;
+    grid-template-rows: auto;
+    position: relative;
+}
+
+.container-4{
+    display: grid;
+    grid-template-rows: auto;
+    position: relative;
+}
+
+.bloc_text{
+    font-family: 'DroidSerif-I';
+    font-weight: bold;
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+.container_text{
+    background-image: url(/assets/img/grille.png);
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem 0;
+}
+
+/* Container img */
+.color_{
+    color: var(--color-h2);
+    font-family: 'Oswald-L';
+}
+
+.publish{
+    margin: 0 0 1rem    ;
+    color: var(--primary);
+    font-family: 'DroidSerif-I';
+}
+
+.container-text{
+    color: var(--primary);
+    font-family: 'DroidSans';
+}
+
+.links a {
+    color: var(--primary);
+    font-family: 'DroidSerif-R';
+    text-decoration: none;
+}
+
+.container-img{
+    margin: 2rem 0 0 0;
+}
+
+.container-img img{
+    margin: 10px 10px 0 0;
+    padding: 10px;
+    color: rgb(231, 231, 231);
+    border: 2px solid;
+    box-shadow: 1px 2px 2px rgb(231, 231, 231);
+}
+
+/* Footer */
+.footer_distributed .contact_icon img{
+    vertical-align: middle;
+}
+
+.container_footer li{
+    line-height: 30px;
+}
+
+.footer_distributed li{
+    list-style: none;
+    color: var(--primary);
+    font-family: 'DroidSans';
+  }
+
+.footer_distributed{
+    background-image:url(/assets/img/grille.png);
+    width: 100%;
+}
+
+.container_footer{
+    display: flex;
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.bloc{
+    width: 30%;
+    padding: 2rem 2rem;
+}
+
+.date{
+    font-family: 'DroidSerif-I';
+}
+
+.bloc_bold{
+    font-family: 'DroidSans-B';
+}
+
+.bloc_h3{
+    color: var(--primary);
+    font-family: 'Oswald-L';
+}
+
+.list_footer{
+    color: var(--primary);
+    display: block;
+    margin: 1rem 0;
+}
+
+.footer_social{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 2rem 300px;
+    display: flex;
+    background-color: var(--white);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_social .footer_social_content{
+    position: relative;
+    width: auto;
+}
+
+.footer_social a{
+    font-family: 'DroidSans-B';
+}
+
+.footer_social .footer_content-1 a{
+    color: var(--primary);
+    border-right: 1px solid var(--primary);
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer_content-1 #about{
+    border: none;
+}
+
+.footer_content-1 p{
+    padding: 0 10px;
+    color: var(--primary);
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--separation-nav-1); 
+    border-radius: 5px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background-color: var(--separation-nav-1);
+    border-radius: 5px;
+}
+
+/*Responsive*/
+

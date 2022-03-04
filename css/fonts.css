@@ -1,0 +1,49 @@
+/*Import Font*/
+
+/*Droid Sans*/
+@font-face {
+    src: url(/fonts/DroidSans.ttf);
+    font-family: 'DroidSans';
+}
+
+/*Droid Sans Bold*/
+@font-face {
+    src: url(/fonts/DroidSans-Bold.ttf);
+    font-family: 'DroidSans-B';
+}
+
+/*Droid Serif Bold*/
+@font-face {
+    src: url(/fonts/DroidSerif-Bold.ttf);
+    font-family: 'DroidSerif-B';
+}
+
+/*Droid Serif Italic*/
+@font-face {
+    src: url(/fonts/DroidSerif-Italic.ttf);
+    font-family: 'DroidSerif-I';
+}
+
+/*Droid Serif Regular*/
+@font-face {
+    src: url(/fonts/DroidSerif-Regular.ttf);
+    font-family: 'DroidSerif-R';
+}
+
+/*Oswald-Light*/
+@font-face {
+    src: url(/fonts/Oswald-Light.ttf);
+    font-family: 'Oswald-L';
+}
+
+/*Oswald-Medium*/
+@font-face {
+    src: url(/fonts/Oswald-Medium.ttf);
+    font-family: 'Oswald-M';
+}
+
+/*Oswald-Regular*/
+@font-face {
+    src: url(/fonts/Oswald-Regular.ttf);
+    font-family: 'Oswald-R';
+}
